@@ -9,7 +9,7 @@ from sqlalchemy import text
 st.title("DS3A - Cloud Computing")
 st.subheader("Abainza, Usher Raymond N.")
 
-warehouse = "postgresql://duckdb_sample_user:i6iKJc6FCs4hVS3AX6yMZngxJvMkzGCs@dpg-d0b2efp5pdvs73c9pi00-a.singapore-postgres.render.com/duckdb_sample"
+warehouse = "postgresql://data_warehouse_4pmg_user:IF6UyYWwM2d8lS2r6UWTi8oEEOvTzYHF@dpg-d0ouncjuibrs73850s6g-a.singapore-postgres.render.com/data_warehouse_4pmg"
 engine = create_engine(warehouse,  client_encoding='utf8')
 connection = engine.connect()
 
